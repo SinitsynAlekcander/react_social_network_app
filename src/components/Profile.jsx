@@ -1,0 +1,28 @@
+import React from "react";
+
+function Profile() {
+    return <div className='appContent'>
+        <div>
+            <img src='https://cdn-images-1.medium.com/max/1024/1*GsEYCGIKf1N4um0naNLRbQ.jpeg' />
+        </div>
+        <div>
+            Ava+description
+        </div>
+        <div>
+            My posts
+            <div>
+                New post
+            </div>
+            <div>
+                Post 1
+            </div>
+            <div>
+                Post 2
+            </div>
+            <div>
+                Post 3
+            </div>
+        </div>
+    </div>
+}
+export default Profile;
