@@ -9,14 +9,7 @@
   grid-template-columns: 2fr 10fr;
 }
 
-.appHeader {
-  grid-area: header;
-  background-color: green;
-}
 
-.appHeader img {
-  width: 60px;
-}
 
 
 .appNav {
