@@ -1,0 +1,4 @@
+.appNav {
+    grid-area: nav;
+    background-color: blue;
+  }
