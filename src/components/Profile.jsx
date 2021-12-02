@@ -1,7 +1,8 @@
 import React from "react";
+import ss from './Profile.module.css';
 
 function Profile() {
-    return <div className='appContent'>
+    return <div className={ss.appContent}>
         <div>
             <img src='https://cdn-images-1.medium.com/max/1024/1*GsEYCGIKf1N4um0naNLRbQ.jpeg' />
         </div>
