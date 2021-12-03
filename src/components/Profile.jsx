@@ -1,8 +1,8 @@
 import React from "react";
-import ss from './Profile.module.css';
+import objectProfileModuleCss from './Profile.module.css';
 
 function Profile() {
-    return <div className={ss.appContent}>
+    return <div className={objectProfileModuleCss.appContent}>
         <div>
             <img src='https://cdn-images-1.medium.com/max/1024/1*GsEYCGIKf1N4um0naNLRbQ.jpeg' />
         </div>
@@ -14,13 +14,13 @@ function Profile() {
             <div>
                 New post
             </div>
-            <div className={ss.item}>
+            <div className={objectProfileModuleCss.item}>
                 Post 1
             </div>
-            <div className={ss.item}>
+            <div className={objectProfileModuleCss.item}>
                 Post 2
             </div>
-            <div className={ss.item}>
+            <div className={objectProfileModuleCss.item}>
                 Post 3
             </div>
         </div>
