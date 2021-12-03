@@ -14,13 +14,13 @@ function Profile() {
             <div>
                 New post
             </div>
-            <div>
+            <div className={ss.item}>
                 Post 1
             </div>
-            <div>
+            <div className={ss.item}>
                 Post 2
             </div>
-            <div>
+            <div className={ss.item}>
                 Post 3
             </div>
         </div>

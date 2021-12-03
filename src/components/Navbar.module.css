@@ -1,4 +1,8 @@
 .appNav {
-    grid-area: nav;
-    background-color: blue;
-  }
+  grid-area: nav;
+  background-color: blue;
+}
+
+.item {
+  color: white;
+}

@@ -1,4 +1,8 @@
 .appContent {
-    grid-area: content;
-    background-color: greenyellow;
-  }
+  grid-area: content;
+  background-color: greenyellow;
+}
+
+.item {
+  color: white;
+}

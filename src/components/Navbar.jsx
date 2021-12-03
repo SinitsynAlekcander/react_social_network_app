@@ -3,19 +3,19 @@ import s from './Navbar.module.css';
 
 function Navbar() {
     return <nav className={s.appNav}>
-        <div>
+        <div className={s.item}>
             <a> Profile </a>
         </div>
-        <div>
+        <div className={s.item}>
             <a> Messeges </a>
         </div>
-        <div>
+        <div className={s.item}>
             <a> News </a>
         </div>
-        <div>
+        <div className={s.item}>
             <a> Music </a>
         </div>
-        <div>
+        <div className={s.item}>
             <a> Settings </a>
         </div>
     </nav>
