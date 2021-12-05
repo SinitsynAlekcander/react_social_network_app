@@ -8,6 +8,7 @@ function MyPosts() {
             <button> Add Post </button>
             <button> Remove </button>
             <button> Test </button>
+            <button> Test2 </button>
             <div>
                 New post
             </div>
