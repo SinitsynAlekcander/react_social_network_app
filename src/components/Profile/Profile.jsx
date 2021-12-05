@@ -1,4 +1,5 @@
 import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
 import objectProfileModuleCss from './Profile.module.css';
 
 function Profile() {
@@ -9,21 +10,7 @@ function Profile() {
         <div>
             Ava+description
         </div>
-        <div>
-            My posts
-            <div>
-                New post
-            </div>
-            <div className={objectProfileModuleCss.item}>
-                Post 1
-            </div>
-            <div className={objectProfileModuleCss.item}>
-                Post 2
-            </div>
-            <div className={objectProfileModuleCss.item}>
-                Post 3
-            </div>
-        </div>
+        <MyPosts />
     </div>
 }
 export default Profile;
