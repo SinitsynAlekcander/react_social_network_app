@@ -6,6 +6,7 @@ function MyPosts() {
         <div>
             <textarea> </textarea>
             <button> Add Post </button>
+            <button> Remove </button>
             <div>
                 New post
             </div>
