@@ -1,8 +1,4 @@
 .appContent {
   grid-area: content;
-  background-color: greenyellow;
-}
-
-.appContent img {
-  width: 600px;
+  background-color: yellow
 }

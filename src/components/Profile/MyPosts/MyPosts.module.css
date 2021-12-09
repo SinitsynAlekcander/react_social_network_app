@@ -1,3 +1,7 @@
 .item {
-  color: white;
+  color: blue;
+}
+
+.item img {
+  width: 50px;
 }
