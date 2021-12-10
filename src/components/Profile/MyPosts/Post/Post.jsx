@@ -1,13 +1,13 @@
 import React from "react";
 import objectPostModuleCss from './Post.module.css';
 
-function Post() {
+function Post(props) {
     return (
         < div className={objectPostModuleCss.item} >
             <img src='https://pixelbox.ru/wp-content/uploads/2021/09/avatar-boys-vk-96.jpg' />
-            New post
+            {props.messege}
             <div>
-                <span> like </span>
+                <span> {props.like} </span>
             </div>
         </div >
     )
