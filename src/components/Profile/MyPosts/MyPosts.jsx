@@ -12,6 +12,7 @@ function MyPosts() {
                 <button> Remove </button>
                 <button> Test </button>
                 <button> Test2 </button>
+                <button> Test3 </button>
                 <Post messege='Hello, My first Post' like='10 like'/>
                 <Post messege='Hello, My second Post' like='15 like'/>
                 <Post />
