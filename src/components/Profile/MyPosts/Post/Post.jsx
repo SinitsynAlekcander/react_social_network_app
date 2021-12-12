@@ -7,7 +7,7 @@ function Post(props) {
             <img src='https://pixelbox.ru/wp-content/uploads/2021/09/avatar-boys-vk-96.jpg' />
             {props.messege}
             <div>
-                <span> {props.like} </span>
+                <span> like </span> {props.likeCount}
             </div>
         </div >
     )
