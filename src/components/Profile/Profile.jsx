@@ -5,7 +5,7 @@ import objectProfileModuleCss from './Profile.module.css';
 function Profile() {
     return <div>
         <div>
-            <img src='https://cdn-images-1.medium.com/max/1024/1*GsEYCGIKf1N4um0naNLRbQ.jpeg' />
+            <img src='https://www.techmenews.com/wp-content/uploads/2021/02/develop-and-fix-reactjs-web-application.jpg' />
         </div>
         <div>
             Ava+description
