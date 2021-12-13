@@ -4,10 +4,10 @@ import objectNavbarModuleCss from './Navbar.module.css';
 function Navbar() {
     return <nav className={objectNavbarModuleCss.appNav}>
         <div className={objectNavbarModuleCss.item}>
-            <a> Profile </a>
+            <a href="/profile"> Profile </a>
         </div>
         <div className={objectNavbarModuleCss.item}>
-            <a> Messeges </a>
+            <a href="/dialogs"> Messeges </a>
         </div>
         <div className={objectNavbarModuleCss.item}>
             <a> News </a>
