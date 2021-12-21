@@ -13,8 +13,10 @@ function MyPosts() {
                 <button> Test </button>
                 <button> Test2 </button>
                 <button> Test3 </button>
-                <Post messege='Hello, My first Post' likeCount='10'/>
-                <Post messege='Hello, My second Post' likeCount='15'/>
+            </div>
+            <div>
+                <Post messege='Hello, My first Post' likeCount='10' />
+                <Post messege='Hello, My second Post' likeCount='15' />
                 <Post />
             </div>
         </div>

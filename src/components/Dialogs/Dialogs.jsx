@@ -31,7 +31,7 @@ const Dialogs = () => {
                 <DialogItem name='Alisa' id='4' />
             </div>
             <div className={style.messages}>
-                <Message message='Hi' />
+                <Message message='Hi+' />
                 <Message message='Hello' />
                 <Message message='How are you?' />
                 <Message message='Yes' />
