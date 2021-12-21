@@ -1,16 +1,14 @@
 import React from "react";
 import MyPosts from "./MyPosts/MyPosts";
 import objectProfileModuleCss from './Profile.module.css';
+import ProfileInfo from "./ProfileInfo/PrifileInfo";
 
 function Profile() {
-    return <div>
+    return (
         <div>
-            <img src='https://www.techmenews.com/wp-content/uploads/2021/02/develop-and-fix-reactjs-web-application.jpg' />
+            <ProfileInfo />
+            <MyPosts />
         </div>
-        <div>
-            Ava+description
-        </div>
-        <MyPosts />
-    </div>
+    )
 }
 export default Profile;
