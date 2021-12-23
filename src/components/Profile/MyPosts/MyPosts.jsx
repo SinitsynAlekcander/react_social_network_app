@@ -9,21 +9,26 @@ function MyPosts() {
         { id: 2, post: 'Hello, My second Post', likeCount: 17 },
         { id: 3, post: 'How are you?', ikeCount: 8 }
     ]
-    
+
     return (
         <div className={style.descriptionBlock}>
+
             <h2>
                 My Posts
             </h2>
+
             <div>
+
                 <div>
                     <textarea>
 
                     </textarea>
                 </div>
+
                 <div>
                     <button> Add Post </button>
                 </div>
+
             </div>
 
             <div className={style.posts}>
