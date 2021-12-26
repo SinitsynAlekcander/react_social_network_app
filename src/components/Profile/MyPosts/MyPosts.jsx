@@ -10,6 +10,8 @@ function MyPosts() {
         { id: 3, post: 'How are you?', ikeCount: 8 }
     ]
 
+    let postElement = postsData.map(post => <Post messege={post.post} likeCount={post.likeCount} />);
+
     return (
         <div className={style.descriptionBlock}>
 
@@ -32,9 +34,7 @@ function MyPosts() {
             </div>
 
             <div className={style.posts}>
-                <Post messege={postsData[0].post} likeCount={postsData[0].likeCount} />
-                <Post messege={postsData[1].post} likeCount={postsData[1].likeCount} />
-                <Post messege={postsData[2].post} likeCount={postsData[2].likeCount} />
+                {postElement}
             </div>
 
         </div>
