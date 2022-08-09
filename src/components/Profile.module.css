@@ -1,0 +1,8 @@
+.main_content {
+    grid-area: main_content;
+    background-color: #ffdd00;
+  }
+
+  .item {
+    color:blue
+  }
