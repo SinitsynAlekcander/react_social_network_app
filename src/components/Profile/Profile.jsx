@@ -1,5 +1,7 @@
 import React from 'react';
+import MyPosts from './MyPosts/MyPosts';
 import style from './Profile.module.css'
+
 function Profile() {
     return (
         <div className={style.main_content}>
@@ -10,23 +12,9 @@ function Profile() {
             <div className={style.item}>
                 Ava + description
             </div>
-
-            <div className={style.item}>
-                My posts
-                <div>
-                    New post
-                </div>
-            </div>
-
-            <div className={style.item}>
-                <div>
-                    post 1
-                </div>
-                <div>
-                    post 2
-                </div>
-            </div>
+            <MyPosts/>
         </div>
     )
 }
+
 export default Profile;
