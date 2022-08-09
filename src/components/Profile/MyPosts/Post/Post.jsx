@@ -7,7 +7,7 @@ function Post(props) {
             <img src='https://www.vippng.com/png/detail/261-2611638_share-this-image-will-smith-with-glasses.png' />
             {props.message}
             <div>
-                <span>{props.like}</span>
+                <span>like</span> {props.likeCount}
             </div>
         </div>
     )
