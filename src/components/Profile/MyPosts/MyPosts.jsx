@@ -11,7 +11,8 @@ function MyPosts() {
                 <button>Add post</button>
                 <button>Delete</button>
             </div>
-            <Post />
+            <Post message='First post' like='10 like'/>
+            <Post message='Second post' like='12 like'/>
         </div>
     )
 }

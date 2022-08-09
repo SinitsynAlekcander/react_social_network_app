@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './Post.module.css'
 
-function Post() {
+function Post(props) {
     return (
         <div className={style.item}>
             <img src='https://www.vippng.com/png/detail/261-2611638_share-this-image-will-smith-with-glasses.png' />
-            post 1
+            {props.message}
             <div>
-                <span>like</span>
+                <span>{props.like}</span>
             </div>
         </div>
     )
