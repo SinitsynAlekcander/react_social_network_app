@@ -1,29 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="app-wraper">
       <Header />
-
-
-      <nav className="nav">
-        <div>
-          <a>Profile</a>
-        </div>
-        <div>
-          <a>Message</a>
-        </div>
-        <div>
-          <a>News</a>
-        </div>
-        <div>
-          <a>Music</a>
-        </div>
-        <div>
-          <a>Setting</a>
-        </div>
-      </nav>
+      <Navbar />
 
       <div className="main-conent">
         <div>
