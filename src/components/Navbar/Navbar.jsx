@@ -5,13 +5,13 @@ function Navbar() {
     return (
         <nav className={style.nav}>
             <div className={style.item}>
-                <a>Profile</a>
+                <a href='/profile'>Profile</a>
             </div>
             <div className={style.item}>
-                <a>Message</a>
+                <a href='/dialogs'>Dialogs</a>
             </div>
             <div className={style.item}>
-                <a>News</a>
+                <a href='/news'>News</a>
             </div>
             <div className={style.item}>
                 <a>Music</a>
