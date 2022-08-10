@@ -4,7 +4,7 @@ import style from './Profile.module.css'
 
 function Profile() {
     return (
-        <div className={style.main_content}>
+        <div className={style.profile}>
             <div>
                 <img src="https://hb.bizmrg.com/websiterfs/news/216431/62eff614cd7ce_582x388.jpg" />
             </div>

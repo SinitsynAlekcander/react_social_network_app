@@ -1,4 +1,4 @@
-.app-wraper {
+.app_wraper {
   display: grid;
   width: 1200px;
   margin: 0px auto;
@@ -7,4 +7,9 @@
   grid-template-areas:
     "header header"
     "nav main_content"
+}
+
+.app_wraper_content {
+  grid-area: main_content;
+  background-color: #ffdd00;
 }
