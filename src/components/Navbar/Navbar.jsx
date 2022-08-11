@@ -12,7 +12,7 @@ function Navbar() {
             </div>
 
             <div>
-                <NavLink to='/dialogs' className={navData => navData.isActive ? style.active : style.item}>
+                <NavLink to='/dialogs/*' className={navData => navData.isActive ? style.active : style.item}>
                     Dialogs
                 </NavLink>
             </div>

@@ -4,7 +4,7 @@ import style from './Post.module.css'
 function Post(props) {
     return (
         <div className={style.item}>
-            <img src='https://www.vippng.com/png/detail/261-2611638_share-this-image-will-smith-with-glasses.png' />
+            <img src='https://www.devopsschool.com/blog/wp-content/uploads/2022/03/reactjs-benefits.jpg' />
             {props.message}
             <div>
                 <span>like</span> {props.likeCount}
