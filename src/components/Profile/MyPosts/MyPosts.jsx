@@ -4,15 +4,21 @@ import Post from './Post/Post';
 
 function MyPosts() {
     return (
-        <div>
-            My posts
+        <div className={style.description_block}>
+            <h3>My posts</h3>
             <div>
-                <textarea>Post</textarea>
-                <button>Add post</button>
-                <button>Delete</button>
+                <div>
+                    <textarea>Post</textarea>
+                </div>
+                <div>
+                    <button>Add post</button>
+                    <button>Delete</button>
+                </div>
             </div>
-            <Post message='First post' likeCount='10'/>
-            <Post message='Second post' likeCount='12'/>
+            <div className={style.posts}>
+                <Post message='First post' likeCount='10' />
+                <Post message='Second post' likeCount='12' />
+            </div>
         </div>
     )
 }
