@@ -3,6 +3,10 @@ import style from './MyPosts.module.css'
 import Post from './Post/Post';
 
 function MyPosts() {
+    let postsData = [
+        { id: 1, message: "First post", likeCount: 10 },
+        { id: 1, message: "Second post", likeCount: 12 }
+    ]
     return (
         <div className={style.description_block}>
             <h3>My posts</h3>
@@ -16,8 +20,8 @@ function MyPosts() {
                 </div>
             </div>
             <div className={style.posts}>
-                <Post message='First post' likeCount='10' />
-                <Post message='Second post' likeCount='12' />
+                <Post message={postsData[0].message} likeCount={postsData[0].likeCount} />
+                <Post message={postsData[1].message} likeCount={postsData[1].likeCount} />
             </div>
         </div>
     )
