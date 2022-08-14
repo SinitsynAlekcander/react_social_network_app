@@ -8,6 +8,12 @@ import News from "./components/News/News";
 import Profile from "./components/Profile/Profile";
 
 function App() {
+
+  let postsData = [
+    { id: 1, message: "First post", likeCount: 10 },
+    { id: 2, message: "Second post", likeCount: 12 }
+]
+
   return (
     <BrowserRouter>
       <div className="app_wraper">
@@ -15,7 +21,7 @@ function App() {
         <Navbar />
         <div className="app_wraper_content">
           <Routes>
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile" element={<Profile postsData={postsData}/>} />
             <Route path="/dialogs/*" element={<Dialogs />} />
             <Route path="/news" element={<News />} />
           </Routes>
