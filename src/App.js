@@ -7,12 +7,12 @@ import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
 import Profile from "./components/Profile/Profile";
 
-function App() {
+function App(props) {
 
-  let postsData = [
-    { id: 1, message: "First post", likeCount: 10 },
-    { id: 2, message: "Second post", likeCount: 12 }
-]
+//   let postsData = [
+//     { id: 1, message: "First post", likeCount: 10 },
+//     { id: 2, message: "Second post", likeCount: 12 }
+// ]
 
   return (
     <BrowserRouter>
@@ -21,7 +21,7 @@ function App() {
         <Navbar />
         <div className="app_wraper_content">
           <Routes>
-            <Route path="/profile" element={<Profile postsData={postsData}/>} />
+            <Route path="/profile" element={<Profile postsData={props.postsData}/>} />
             <Route path="/dialogs/*" element={<Dialogs />} />
             <Route path="/news" element={<News />} />
           </Routes>
