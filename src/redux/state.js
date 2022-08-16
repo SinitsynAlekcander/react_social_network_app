@@ -21,7 +21,7 @@ let state = {
             { id: 2, message: "Second post", likeCount: 12 }
         ]
     },
-    messagePage: {
+    dialogsPage: {
         dialogsData: [
             { id: 1, name: "Damian" },
             { id: 2, name: "Alisa" },

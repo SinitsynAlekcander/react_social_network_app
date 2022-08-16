@@ -20,8 +20,8 @@ function App(props) {
                 postsData={props.appState.profilePage.postsData} />} />
             <Route path="/dialogs/*"
               element={<Dialogs
-                dialogsData={props.appState.messagePage.dialogsData}
-                messagesData={props.appState.messagePage.messagesData} />} />
+                dialogsData={props.appState.dialogsPage.dialogsData}
+                messagesData={props.appState.dialogsPage.messagesData} />} />
             <Route path="/news" element={<News />} />
           </Routes>
         </div>
