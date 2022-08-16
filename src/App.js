@@ -17,11 +17,11 @@ function App(props) {
           <Routes>
             <Route path="/profile"
               element={<Profile
-                postsData={props.appState.postsData} />} />
+                postsData={props.appState.profilePage.postsData} />} />
             <Route path="/dialogs/*"
               element={<Dialogs
-                dialogsData={props.appState.dialogsData}
-                messagesData={props.appState.messagesData} />} />
+                dialogsData={props.appState.messagePage.dialogsData}
+                messagesData={props.appState.messagePage.messagesData} />} />
             <Route path="/news" element={<News />} />
           </Routes>
         </div>
