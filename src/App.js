@@ -17,7 +17,8 @@ function App(props) {
           <Routes>
             <Route path="/profile"
               element={<Profile
-                postsData={props.appState.profilePage.postsData} />} />
+                postsData={props.appState.profilePage.postsData} 
+                addPost={props.addPost}/>} />
             <Route path="/dialogs/*"
               element={<Dialogs
                 dialogsData={props.appState.dialogsPage.dialogsData}

@@ -7,7 +7,10 @@ function MyPosts(props) {
     let postsElements = props.postsData
         .map(post => <Post message={post.message} likeCount={post.likeCount} />);
     let newPostElement = React.createRef();
-    let addPost = () => { alert(newPostElement.current.value) };
+    let addPost = () => {
+        let text = newPostElement.current.value;
+        props.addPost(text);
+    };
 
     return (
         <div className={style.description_block}>
