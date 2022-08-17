@@ -9,7 +9,7 @@ import Profile from "./components/Profile/Profile";
 
 function App(props) {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div className="app_wraper">
         <Header />
         <Navbar />
@@ -26,7 +26,7 @@ function App(props) {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 
