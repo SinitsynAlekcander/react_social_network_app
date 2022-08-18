@@ -29,7 +29,7 @@ export let addPost = (postMessage) => {
         likeCount: 0
     };
     state.profilePage.postsData.push(newPost);
-    rerenderEntireTree();
+    rerenderEntireTree(state);
 }
 
 export default state;
