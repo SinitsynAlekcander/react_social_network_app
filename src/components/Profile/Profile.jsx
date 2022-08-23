@@ -14,7 +14,10 @@ function Profile(props) {
     return (
         <div className={style.profile}>
             <ProfileInfo/>
-            <MyPosts postsData={props.postsData} addPost={props.addPost}/>
+            <MyPosts 
+            postsData={props.profilePage.postsData} 
+            newPostText={props.profilePage.newPostText}
+            addPost={props.addPost}/>
         </div>
     )
 }

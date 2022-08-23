@@ -10,23 +10,23 @@ import Profile from "./components/Profile/Profile";
 function App(props) {
   return (
     // <BrowserRouter>
-      <div className="app_wraper">
-        <Header />
-        <Navbar />
-        <div className="app_wraper_content">
-          <Routes>
-            <Route path="/profile"
-              element={<Profile
-                postsData={props.appState.profilePage.postsData} 
-                addPost={props.addPost}/>} />
-            <Route path="/dialogs/*"
-              element={<Dialogs
-                dialogsData={props.appState.dialogsPage.dialogsData}
-                messagesData={props.appState.dialogsPage.messagesData} />} />
-            <Route path="/news" element={<News />} />
-          </Routes>
-        </div>
+    <div className="app_wraper">
+      <Header />
+      <Navbar />
+      <div className="app_wraper_content">
+        <Routes>
+          <Route path="/profile"
+            element={<Profile
+              profilePage={props.appState.profilePage}
+              addPost={props.addPost} />} />
+          <Route path="/dialogs/*"
+            element={<Dialogs
+              dialogsData={props.appState.dialogsPage.dialogsData}
+              messagesData={props.appState.dialogsPage.messagesData} />} />
+          <Route path="/news" element={<News />} />
+        </Routes>
       </div>
+    </div>
     // </BrowserRouter>
   );
 }
