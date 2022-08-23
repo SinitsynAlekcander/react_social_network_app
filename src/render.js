@@ -10,9 +10,13 @@ import { root } from './index';
 export let rerenderEntireTree = (state) => {
   root.render(
     <BrowserRouter>
-    <React.StrictMode>
-          <App appState={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
-        </React.StrictMode>
+      <React.StrictMode>
+        <App
+          appState={state}
+          addPost={addPost}
+          updateNewPostText={updateNewPostText}
+        />
+      </React.StrictMode>
     </BrowserRouter>
-    );
+  );
 }
